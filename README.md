@@ -10,17 +10,27 @@ The model translates technical text from one language to another while preservin
 
 ## 🧩 System Architecture
 
-Input Text → Preprocessing → NMT Model → Translated Output
+Input Text
+↓
+Preprocessing
+↓
+NMT Model
+↓
+Translated Output
 
 ## 📂 Project Structure
 
 NMT_Technical_Specifications/
+│
 ├── data/
 │   └── sample_specs.txt
+│
 ├── model/
 │   └── nmt_model.py
+│
 ├── utils/
 │   └── preprocessing.py
+│
 ├── train.py
 ├── evaluate.py
 ├── requirements.txt
